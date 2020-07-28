@@ -1,0 +1,134 @@
+body{
+    background-color: #000119;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.login-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+.grid-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.grid-login-panel{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    text-align: center; 
+
+    top: 183px;
+    width: 445px;
+    height: 403px;
+    background-color: #0B0D3B;
+    box-shadow: 5px 5px 30px #00000099;
+    border-radius: 15px;     
+}
+
+.login-title{
+    position: absolute;
+    top: 49px;
+    font-weight: bold;
+    font-size: 34px;
+    letter-spacing: 0.68px; 
+    color: #FB68BD;
+}
+
+::placeholder{
+    color: #EFEFEF;
+    opacity: 1;
+}
+
+input[type=email]{
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+
+    width: 68%;
+    padding: 5px 15px;
+    padding-left: 50px;
+    margin-top: 125px;
+    
+    border: none;
+    border-bottom: 2px solid #EFEFEF;
+    
+    background-color: #0B0D3B;
+    background-image: url('email-24px.png');
+    background-position: 5px 2px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+  
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #EFEFEF;
+}
+
+input[type=text]{
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+
+    width: 68%;
+    padding: 8px 15px;
+    padding-left: 50px;
+    margin-top: 27px;
+    
+    border: none;
+    border-bottom: 2px solid #EFEFEF;
+    
+    background-color: #0B0D3B;
+    background-image: url('lock.png');
+    background-position: 9px 3px;
+    background-size: 24px 32px;
+    background-repeat: no-repeat;
+  
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #EFEFEF; 
+}
+
+input[type=submit]{
+    display: inline-block;
+    padding: 10px 125px;
+    background-color: #FB68BD;
+    border: none;
+    border-radius: 30px;
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 36px;
+}
+
+
+.register-btn{
+    position: absolute;
+    background-color: #0B0D3B;
+    border: none;
+    outline: none;
+    margin-top: 334px;
+    
+    text-align: center;
+    text-decoration: none;
+}
+
+.register-info, .register-cmd{
+    font-family: 'Rubik', sans-serif;
+    font-weight: normal;
+    font-size: 12px;
+    color: #FB68BD;   
+}
+
+.register-cmd{
+    color: #EFEFEF;
+}
