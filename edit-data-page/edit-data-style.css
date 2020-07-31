@@ -1,0 +1,196 @@
+body{
+    background-color: #000119;
+    font-family: 'Rubik', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.edit-grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    margin-top: 97px;
+    column-gap: 27px;
+    top: 97px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+.left-navbar-grid{
+    width: 196px;
+    height: 574px;
+
+    background-color: #0B0D3B;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #00000099;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    text-align: center; 
+}
+
+.edit-title{
+    position: absolute;
+
+    margin-top: 38px;
+
+    color: #E9E9E8 ;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.edit-user-name{
+    color: #E9E9E8;
+    font-weight: bold;
+}
+
+a{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+
+    font-weight: bold;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.edit-button{
+    position: absolute;
+    top: 169px;
+    text-align: center;
+}
+
+.edit-text{
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+
+    width: 88px;
+    margin-top: 100px;
+    color: #FB68BD;
+}
+
+.logout-button{
+    position: absolute;
+    top: 314.07px;
+    text-align: center;
+}
+
+.logout-text{
+    display: inline-block;
+    position: absolute;
+    align-items: center;
+
+    margin-top: 80px;
+    color: #E9E9E8;
+}
+
+.right-form-grid{
+    width: 897px;
+    height: 574px;
+
+    background-color: #0B0D3B;
+    border-radius: 15px;
+    box-shadow: 5px 5px 30px #00000099;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    text-align: center; 
+}
+
+label{
+    display: inline-block;
+    width: 96px;
+    text-align: right;
+
+    color: #E9E9E8;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.edit-input-container{
+    margin-top: 96px;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 68%;
+}
+
+.edit-input{
+    text-align: center;
+}
+
+input[type=text], input[type=email], input[type=date]{
+    display: inline-block;
+    box-sizing: border-box;
+    outline: none;
+
+    width: 80%;
+    margin: 12px 0;
+    margin-left: 12px;
+    padding: 10px 24px;
+
+    border: 1px solid #0BB4FF;
+    border-radius: 6px;
+    background-color: #0B0D3B;
+
+    color: #E9E9E8;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+::-webkit-calendar-picker-indicator{
+    background-color: #E9E9E8;
+    border-radius: 5px;
+}
+
+::placeholder{
+    color: #E9E9E8;
+    opacity: 1;
+}
+
+select{
+    display: inline-block;
+    box-sizing: border-box;
+    
+    width: 80%;
+    padding: 10px 24px;
+    margin: 12px 0;
+    margin-left: 12px;
+
+    border: 1px solid #0BB4FF;
+    border-radius: 6px;
+    background-color: #0B0D3B;
+
+    color: #E9E9E8;
+    font-weight: normal;
+    font-size: 20px;
+   
+}
+
+input[type=submit]{
+    display: inline-block; 
+
+    margin: 12px 0;
+    padding: 8px 38px;
+    width: 156px;
+    height: 41px;
+
+    background-color: #FB68BD;
+    border: none;
+    border-radius: 8px;
+    
+    color: #EFEFEF;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}

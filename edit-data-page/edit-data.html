@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="edit-data-style.css">
+    <title>Edit Data</title>
+</head>
+<body>
+    <div class="edit-grid-container">
+        <div class="left-navbar-grid">
+            <span class="edit-title">
+                <span class="edit-user-title">Halo, </span>
+                <span class="edit-user-name">User!</span>
+            </span>
+        
+            <a class="edit-button" href="#">
+                <img src="writing.png" height="62.68" width="56.18" alt="written paper and a pen">
+                <span class="edit-text">Edit Data</span>
+            </a>
+
+            <a class="logout-button" href="#">
+                <img src="logout.png" height="43.88" width="59.01" alt="logout icon">
+                <span class="logout-text">Logout</span>
+            </a>
+        </div>
+
+        <div class="right-form-grid">
+            <div class="edit-input-container">
+                <form class="edit-input">
+                    <label for="name-input">Name</label>
+                    <input type="text" name="name-input" placeholder="John Doe">
+                    <label for="email-input">Email</label>
+                    <input type="email" name="email-input" placeholder="youremail@site.com">
+                    <label for="address-input">Address</label>
+                    <input type="text" name="address-input" placeholder="Pacific Ocean">
+                    <label for="date-input">DOB</label>
+                    <input type="date" name="date-input">
+                    <label for="category-list">Category</label>
+                    <select name="category" id="category-list" form="edit-input">
+                        <option value="social-media">Social Media</option>
+                        <option value="project-manage">Project Management</option>
+                        <option value="seo-optimize">SEO Optimization</option>
+                        <option value="app-development">App Development</option>
+                    </select>
+                    <input type="submit" value="Submit" form="edit-input">;
+                </form> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
