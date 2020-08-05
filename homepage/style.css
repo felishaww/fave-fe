@@ -127,15 +127,25 @@ body{
     box-shadow: 0px 6px 25px #0BB4FF7C;
 }
 
-.grid-3-items div{
+.grid-3-position{
     display: inline-block;
-    background-color: #F4F4F4;
     justify-self: center;
     align-self: center;
+
+    margin-top: 3rem;
 }
 
-.grid-3-items div span{
-    background-color: #FB69BD;
+.grid-3-title1{
+    margin-top: 0.5rem;
+}
+.grid-3-title2{
+    margin-top: 4rem;
+}
+.grid-3-title3{
+    margin-top: 4.3rem;
+}
+.grid-3-title4{
+    margin-top: 1rem;
 }
 
 .contact-title{
@@ -176,10 +186,17 @@ body{
     color: #E9E9E8;
     font-weight: normal;
     font-size: 26px;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 3rem;
 }
 
 .grid-4-left-panel ul li a span{
-    padding: 20px 16px;
+    margin-left: 1rem;
+}
+
+.grid-4-img{
+    margin-left: 4rem;
 }
 
 .footer{
